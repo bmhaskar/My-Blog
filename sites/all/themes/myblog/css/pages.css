@@ -74,8 +74,7 @@ div#site-name /* The name of the website */ {
     line-height: 1.5em;
     margin: 0;
     font-size: 2.6em;
-    font-weight: 700;
-    font-family: bryant-web-1,bryant-web-2,sans-serif;
+    font-weight: 700;    
     font-style: normal;
 }
 
@@ -83,7 +82,7 @@ div#site-name /* The name of the website */ {
 #site-name a:visited {
     margin-top:10px;
 /*    color: #000;*/
-color:#FFF;
+    color:#FFF;
     text-decoration: none;
 }
 
