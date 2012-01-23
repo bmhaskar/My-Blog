@@ -20,7 +20,7 @@ li a.active {
 
 #navigation ul.links, /* Main menu and secondary menu links */
 #navigation .content ul /* Menu block links */ {
-  margin: -10px 0 0 0;
+  margin: -11px 0 0 0;
 /*  padding: 0;*/
   text-align: left; /* LTR */  
 list-style-type: none;
