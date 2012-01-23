@@ -197,7 +197,7 @@ a, a:active ,a:visited{
     list-style-type:square;
 }
 a:hover,a:focus{
-    color: #333;    
+    color: #333333;    
     text-decoration: underline;
 }
 #content h3, #content h2, #sidebar .block h2 {
