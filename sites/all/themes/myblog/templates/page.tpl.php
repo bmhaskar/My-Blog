@@ -169,5 +169,5 @@
   <?php print render($page['footer_right']). "</div>"; ?>
 
 </div></div><!-- /#page, /#page-wrapper -->
-
+ 
 <?php print render($page['bottom']); ?>
