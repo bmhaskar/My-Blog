@@ -76,3 +76,20 @@
 
 .field-name-field-FIELDNAME /* Underscores in field name are replaced with dashes. */ {
 }
+
+.field-type-taxonomy-term-reference a ,.field-type-taxonomy-term-reference a:visited {
+    background-color: #EEE;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    color: #666;
+    display: inline-block;
+    margin: 3px 0;
+    padding: 3px 5px;
+    text-decoration: none;
+}
+.field-type-taxonomy-term-reference a:hover  {
+    background-color: #CCC;
+    color:#fff;
+}
+
