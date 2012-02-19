@@ -11,6 +11,10 @@
 /*
  * Body
 */
+@font-face {
+    font-family: "Lucida Grande";
+    src: url(Lucida Grande.ttf);
+}
 body {
     margin: 0;
     padding: 0;
@@ -271,12 +275,21 @@ ul.links li {
     float: right;
 }
 
-.contact-mobile {
+.contact-mobile , .contact-email, .contact-twitter {
     background: url(../images/sprite.png) 0 0;
-    height: 62px;
+    height: 42px; 
+    width:42px;  
+    margin: 5px 0;
+    float: left;
+}
+.contact-email, .contact-twitter  {
+display:block;
+float:none;
+}
+.contact-mobile-no, .contact-email-address, .contact-twitter-handle {
     font-weight: bold;
     font-size: 1.2em;
     line-height: 39px;
-    padding: 0 0 0 46px;
-    margin: 5px 0;
+	float: left;
+	margin: 5px 0 0 5px;
 }

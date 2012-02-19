@@ -507,11 +507,11 @@ sub {
 
 sup {
 }
-img:focus {
+a:focus {
     outline: 0;
     border: 0;
 }
-img:active {
+a:active {
     outline: 0;
     border: 0;
 }

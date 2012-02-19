@@ -511,3 +511,22 @@ $conf['404_fast_html'] = '<html xmlns="http://www.w3.org/1999/xhtml"><head><titl
  */
 # $conf['pressflow_smart_start'] = TRUE;
 
+$conf +=  array(
+    'cache_inc' => 'sites/all/modules/memcache/memcache.inc',
+    'memcache_servers' => array(
+        'localhost:11211' => 'default',
+        'localhost:11212' => 'page',
+        'localhost:11213' => 'views',
+        'localhost:11214' => 'other',
+    ),
+    'memcache_bins' => array(
+        'cache' => 'default',
+        'cache_content' => 'page',
+        'cache_page' => 'page',
+        'cache_views_data' => 'views',
+        'session' => 'other',
+        'users' => 'other'
+    ),
+    'memcache_key_prefix' => 'myblog',
+);
+
