@@ -13,7 +13,7 @@
 */
 @font-face {
     font-family: "Lucida Grande";
-    src: url(Lucida Grande.ttf);
+    src: url('Lucida Grande.ttf');
 }
 body {
     margin: 0;
