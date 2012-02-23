@@ -275,21 +275,32 @@ ul.links li {
     float: right;
 }
 
-.contact-mobile , .contact-email, .contact-twitter {
-    background: url(../images/sprite.png) 0 0;
-    height: 42px; 
-    width:42px;  
+.contact-item {
+    background: url(../images/sprite.png) no-repeat 0  0 ;
+    height: 42px;
+    width: 42px;
     margin: 5px 0;
-    float: left;
-}
-.contact-email, .contact-twitter  {
-display:block;
-float:none;
-}
-.contact-mobile-no, .contact-email-address, .contact-twitter-handle {
     font-weight: bold;
     font-size: 1.2em;
     line-height: 39px;
-	float: left;
-	margin: 5px 0 0 5px;
+    
+}
+.contact-mobile-no {
+    width: 160px;
+   
+}
+
+.contact-mobile-no, .contact-email-address, .contact-twitter-handle , .contact-git {
+    margin-left: 50px;
+    
+}
+
+.contact-email-address-wrapper {
+    background-position: -42px 0;
+}
+.contact-twitter-handle-wrapper {
+    background-position: -84px 0;
+}
+.contact-git-wrapper {
+    background-position: 0 -42px;
 }
